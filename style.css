@@ -20,7 +20,7 @@ h1 {
 
 @media (max-width:600px){
     .h1{
-        font-size: 12vw;
+        font-size: 14vw;
     }
 }
 
@@ -90,6 +90,7 @@ footer {
   font-size:20px;
 
 }
+
 
 
 
