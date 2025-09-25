@@ -1,7 +1,16 @@
+window.onload= function(){
+   document.getElementById("button").addEventListener("click", generateNumber);
+};
+
 function generateNumber(){
-    let randomNumber = Math.floor(Math.random() * 1000)+1; 
+
+   const Endzahl = document.getElementById("Endzahl").value;
+
+   let randomNumber = Math.floor(Math.random() * Endzahl )+1; 
+
+   document.getElementById("result").innerHTML = randomNumber;
     
-    result.innerHTML = randomNumber
+   //result.innerHTML = randomNumber
 
     if (randomNumber % 2 ===0) {
        geradeungerade.innerHTML = "(gerade Zahl)";
