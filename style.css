@@ -18,11 +18,11 @@ h1 {
   color: #D3DAD9;
 }
 
-/* @media (max-width:600px){
+@media (max-width:600px){
     .h1{
         font-size: 12vw;
     }
-}*/
+}
 
 
 h2 {
@@ -90,6 +90,7 @@ footer {
   font-size:20px;
 
 }
+
 
 
 
